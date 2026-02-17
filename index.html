@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ผลไม้ OOP</title>
+    
+    <link rel="stylesheet" href="https://pyscript.net/releases/2024.1.1/core.css">
+    <script type="module" src="https://pyscript.net/releases/2024.1.1/core.js"></script>
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <div class="card">
+        <h1>🍎 ผลไม้ OOP</h1>
+        
+        <label>เลือกผลไม้:</label>
+        <select id="fruit_selector">
+            <option value="apple">แอปเปิ้ล (Apple)</option>
+            <option value="banana">กล้วย (Banana)</option>
+            <option value="mango">มะม่วง (Mango)</option>
+            <option value="watermelon">แตงโม (Watermelon)</option>
+        </select>
+        <br>
+
+        <button id="btn_sound">🔊 ฟังประโยชน์</button>
+
+        <div id="output"></div>
+        
+    </div>
+
+    <!-- เปลี่ยน src ให้ตรงกับไฟล์ Python ของคุณ -->
+    <script type="py" src="./fruits.py"></script>
+
+</body>
+</html>
